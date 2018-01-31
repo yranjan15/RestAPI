@@ -16,7 +16,7 @@ public class Version {
         Statement st = null;
         ResultSet rs = null;
 
-        String url = "jdbc:mysql://localhost:3306/testdb";
+        String url = "jdbc:mysql://localhost:3306/testdb?autoReconnect=true&useSSL=false";
         String user = "testuser";
         String password = "test623";
 
